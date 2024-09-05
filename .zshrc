@@ -52,6 +52,8 @@ zinit cdreplay -q
 
 
 # Keybindings
+HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_FOUND='bg=#33658A,fg=#ffffff'
+HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_NOT_FOUND='bg=#DA627D,fg=#ffffff'
 bindkey -e
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
